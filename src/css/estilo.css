@@ -130,3 +130,20 @@ nav ul li a:hover{
 .products .product-card button:hover {
     background-color: darkred;
 }
+
+footer {
+    background: rgb(240, 23, 23);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+ 
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+footer .social-media a {
+    margin: 0 5px;
+}
