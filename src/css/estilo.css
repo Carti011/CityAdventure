@@ -44,3 +44,21 @@ nav ul li a:hover{
     background-color: darkred;
     transform: translateY(-3px);
 }
+
+.hero {
+    background: url('/src/assets/banner/natureza.webp') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    color: white;
+}
+ 
+.hero-text {
+    padding: 20px;
+}
+ 
+.hero-text h1 {
+    margin: 0;
+}
