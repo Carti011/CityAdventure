@@ -62,3 +62,32 @@ nav ul li a:hover{
 .hero-text h1 {
     margin: 0;
 }
+
+.support {
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+.support h2 {
+    margin-bottom: 20px;
+}
+ 
+.support-options {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.support-options .option {
+    background: black;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    height: 200px; /* Set a fixed height to make the boxes more squared */
+    text-align: center;
+    border-radius: 5px; /* Adjust or remove to make the corners more squared */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
